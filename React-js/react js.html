@@ -1,91 +1,124 @@
 <html>
 	<head>
         <title>React-JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 <body>
-<div>
-    <h1>What is react js?</h1>
+    <style>
 
-    <p>ReactJS is a declarative,efficient, and flexible JavaScript library for building reusable UI components. And it’s
-    open-source.</p>
+    </style>
+    <div>
+        <h1>What is react js?</h1>
+        <p>A javaScript library for building reusable UI components. And it's open-source.</p>
+        <h1>Top Sites Built with ReactJS</h1>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Netflix</li>
+        </ul>
+        ES6 syntax - features
+        <h1>Traditional html Website</h1>
+        <img src="react js_files/fetch-update.svg">
+        <h1>React-JS Website</h1>
+        <img src="react js_files/react-works.png">
+        <span>No Browser Loading</span>
+        <h1>Why we use ReactJS?</h1>
+        <ul>
+            <p>Improves the speed of the apps. It uses virtual DOM.</p>
+            <p>Improve readability and helps to maintain larger apps.</p>
+        </ul>
 
-    <h1>Why we use ReactJS?</h1>
-
-    <p>Improves the speed of the apps. It uses virtual DOM.</p>
-
-    <p>Improve readability and helps to maintain larger apps.</p>
-
-    <h1 >History of ReactJs? Or React Intro</h1>
-
-    <p >Facebook developed ReactJS in 2011</p>
-
-    <p >But it was released to the public in the month of May 2013.</p>
-
-    <p >A ReactJS application is made up of multiple components.</p>
-
-    <h1>React Version</h1>
-
-    <p>Initial 0.3.0</p>
-
-    <p>Now 18.2.0</p>
+        <h1 >History of ReactJs? Or React Intro</h1>
+        <ul>
+            <p >Facebook developed ReactJS in 2011</p>
+            <p >But it was released to the public in the month of May 2013.</p>
+            <p >A ReactJS application is made up of multiple components.</p>
+        </ul>
+        <h1>React Version</h1>
+        <p>Initial 0.3.0</p>
+        <p>Now 18.2.0</p>
+    </div>
 
 
 
-    <h1>React create-react-app</h1>
 
-    <h3>Requirements</h3>
-    <p>Node version >= 8.10</p>
-    <p>NPM version >= 5.6</p>
+    <p >REACT FEATURES</p>
+
+    <ul>
+    <li>JSX -> Javascript XML </li>
+    <li>Components -> Components are independent and reusable bits of code.</li>
+    <li>One-way Data Binding (?)</span></li>
+    <li>Virtual DOM</span></li>
+    <li>Simplicity -> ReactJS uses JSX file which makes the application simple
+        and to code as well as understand.Component-based approach which
+        makes the code reusable</span></li>
+    <li>Performance -> ReactJS is known to be a great performer. This feature
+        makes it much better than other frameworks out there today. The reason
+        behind this is that it manages a virtual DOM.</span></li>
+    </ul>
+
+    <p>Advantage of ReactJs</p>
+
+    <p>Easy to Learn and Use</p>
+
+    <p>Creating Dynamic Web Applications Becomes Easier</p>
+
+    <p >Reusable Components</p>
+
+    <h3>Disadvantage of ReactJS</h3>
+
+    <p>Reactjs is a library. If we need some module like (Route) we install some third party module.</p>
+
+    <p>React Project Structure</p>
+
+    <img src="react%20js_files/image001.jpg"></p>
 
 
-
+    <h1>Creating Project</h1>
+    <span>Two ways</span>
+    <ul>
+        <li>Using ReactJs in HTML</li>
+        <li>Using Create React App</li>
+    </ul>
+    <h1>ReactJS in HTML</h1>
+    <img src="react js_files/static.png" width="50%" height="50%">
+    <h1>What is Babel</h1>
+    <p>Babel is a JavaScript transpiler that converts edge JavaScript(ES6) into plain old ES5 JavaScript that can run in any browser even in the old ones.</p>
+    <h3>Disadvantage</h3>
+    <ul>
+        <li>Its for small Website</li>
+        <li>If we change something in the code of the application refresh it again again in browser</li>
+        <li>Handle the error in manually</li>
+    </ul>
     
+    <h1>Using Create React App</h1>
+    If you've previously installed create-react-app globally via npm install -g create-react-app, we recommend you uninstall the package using npm uninstall -g create-react-app or yarn global remove create-react-app to ensure that npx always uses the latest version.
+    <h3>Requirements</h3>
+    <span>Node version >= 8.10</span><br>
+    <span>NPM version >= 5.6</span>
+    <br>
+    <img src="react js_files/createapp.png" alt="install">
+    <h4>NPX -> Node Package eXecute(5.2)</h4>
+    npx create-react-app my-app --template typescript
 
-</div>
-<h4>NPX -> Node Package eXecute(5.2)</h4>
-<p>C:\Users\ram> npx create-react-app reactproject</p>
+    <h3>If you don't want to set the environment variable, another option is to modify the scripts part of package.json from:</h3>
+    <div class="shadow-none p-3 mb-5 bg-light rounded">"start": "react-scripts start"</div>
+    
+    to
 
+   <b>Linux</b>  (tested on Ubuntu 14.04/16.04) and MacOS (tested by aswin-s on MacOS Sierra 10.12.4):
 
+   <div class="shadow-none p-3 mb-5 bg-light rounded">"start": "PORT=3006 react-scripts start"</div>
+    or (may be) more general solution by IsaacPak
 
-<p >REACT FEATURES</p>
+    <div class="shadow-none p-3 mb-5 bg-light rounded">"start": "export PORT=3006 react-scripts start"</div>
+    Windows JacobEnsor's solution
 
-<ul>
- <li>JSX -> Javascript XML </li>
- <li>Components -> Components are independent and reusable bits of code.</li>
- <li>One-way Data Binding (?)</span></li>
- <li>Virtual DOM</span></li>
- <li>Simplicity -> ReactJS uses JSX file which makes the application simple
-     and to code as well as understand.Component-based approach which
-     makes the code reusable</span></li>
- <li>Performance -> ReactJS is known to be a great performer. This feature
-     makes it much better than other frameworks out there today. The reason
-     behind this is that it manages a virtual DOM.</span></li>
-</ul>
-
-<p>Advantage of ReactJs</p>
-
-<p>Easy to Learn and Use</p>
-
-<p>Creating Dynamic Web Applications Becomes Easier</p>
-
-<p >Reusable Components</p>
-
-<h3>Disadvantage of ReactJS</h3>
-
-<p>Reactjs is a library. If we need some module like (Route) we install some third party module.</p>
-
-<p>React Project Structure</p>
-
-<img src="react%20js_files/image001.jpg"></p>
-
-
-
-</div>
-
+    <div class="shadow-none p-3 mb-5 bg-light rounded">"start": "set PORT=3006 && react-scripts start"</div>
 </body>
 
 </html>
